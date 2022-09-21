@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var anno = 2022;
+
+const nascita = 1978;
+
+var età = anno - nascita;
+
+var anniMancanti = 100-età;
+
+console.log('età: '+ età +', anni mancanti: '+anniMancanti);
