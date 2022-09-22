@@ -22,3 +22,36 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+let giorno=prompt('numero dl giorno: ', '');
+
+switch (giorno) {
+  case '1':
+  alert('LUNEDI');
+    break;
+  case '2':
+  alert('MARTEDI');
+    break;
+  case '3':
+  alert('MERCOLEDI');
+    break;
+  case '4':
+  alert('GIOVEDI');
+    break;
+  case '5':
+  alert('VENERDI');
+    break;
+  case '6':
+  alert('SABATO');
+    break;
+  case '7':
+  alert('DOMENICA');
+    break;
+  case '0':
+  alert('IL GIORNO 0 NON ESISTE!!! INSERISCI UN NUMERO TRA 1 E 7');
+    break;
+  default:
+  alert('ERRORE I GIORNI SONO SOLO 7 INSERISCI UN NUMERO TRA 1 E 7');
+
+}
