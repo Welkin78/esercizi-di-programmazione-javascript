@@ -8,3 +8,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+let tabellina = prompt ('inserisci un numero per visualizzare la sua tabellina:', '');
+
+let i=1;
+
+for (let i = 1; i < 25; i++) {
+total=i*tabellina
+alert (total);
+}
