@@ -18,3 +18,23 @@
 
   http://www.imparareaprogrammare.it
 */
+let voto = prompt('che voto hai preso?', '');
+
+if (voto < 18) {
+  alert('INSUFFICIENTE');
+} else if ( voto<21) {
+  alert('SUFFICIENTE');
+} else if (voto < 24) {
+  alert ('BUONO');
+} else if (voto < 27) {
+  alert ('DISTINTO');
+} else if (voto < 30) {
+  alert ('OTTIMO');
+} else if (voto = 30) {
+  alert ('ECCELLENTE');
+}
+  else {
+  alert('VOTO NON AMMISSIBILE');
+}{
+
+}
